@@ -44,36 +44,7 @@ Finally, you should prepare a short summary of what you did, why it is better th
 
 ## Submission
 
-Provide a link to the completed modelling exercise on a GitHub account. You can choose to keep the repository private or public. If it is private, you must share your repository with the [gom-ta GitHub account](https://github.com/gom-ta). 
-
-
-## Environment
-
-You will need to prepare your environment to run this code 
-
-
-Create a Conda environment
-
-```python
-conda create --name comp_44081 python=3.8
-```
-Activate your environment
-
-```python
-conda activate comp_44081
-```
-Libs installation
-
-```python
-pip install -r requirements.txt
-```
-
-Add the created environment into Jupyter Notebook
-
-```python
-conda install -c anaconda ipykernel
-python -m ipykernel install --user --name=comp_44081
-```
+Provide a link to the completed modelling exercise on a GitHub account. You can choose to keep the repository private or public. If it is private, you must share your repository with the [gom-ta GitHub account](https://github.com/gom-ta).
 
 ##
 
