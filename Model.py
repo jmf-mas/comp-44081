@@ -117,7 +117,7 @@ class RedemptionModel:
         preds = forecast['yhat'].values
         return pd.Series(preds, index=test.index).clip(lower=self.floor, upper=self.cap)
 
-    def plot(self, preds_original, label, color='red', split_num=None): # Removed truth_original from parameters
+    def plot(self, preds_original, label, color='red', split_num=None):
         # plot out the forecasts
         fig, ax = plt.subplots(figsize=(15, 5))
         #inverse transform the FULL original series for plotting
